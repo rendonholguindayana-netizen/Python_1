@@ -1,4 +1,4 @@
-'''try:
+try:
     
     numero = int(input("Ingrese un número: "))
     print(f"El número ingresado: {numero}")
@@ -39,10 +39,9 @@ while menu != 3:
     except ValueError:
         print("Inngrese un número valido")
 
-print("Saliendo del sistema")'''
+print("Saliendo del sistema")
 
 
-#Ejercicios taller 4:
 
 print("="*30)
 # Ejercicio 1: try / except básico

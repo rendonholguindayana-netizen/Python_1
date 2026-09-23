@@ -1,5 +1,5 @@
 
-"""#Repaso clase pasada
+#Repaso clase pasada
 var_nombre= input("Por favor ingrese su nombre: ")
 
 #Variable numerica (int = numero entero float= decimales)
@@ -24,6 +24,7 @@ else:
     print(f"{var_nombre} Usted es mayor de edad")
 
 
+print("="*30)
 # Ejercicio 1: Determinar si un número es positivo, negativo o cero
 
 numero = float(input("Por favor ingrese un número: "))
@@ -37,8 +38,21 @@ elif numero <0: #Opcion 2: Validar si es negativo
     print(f"El numero : {numero} es negativo")
 
 else:
-    print(f"El numero : {numero} es cero") 
+    print(f"El numero : {numero} es cero")
 
+
+print("="*30)
+ # Ejercicio 2: Verificar si una persona es mayor de edad
+
+edad = int(input("Ingrese su edad: "))
+
+if edad >= 18:
+    print("Es mayor de edad")
+else:
+    print("Es menor de edad")
+
+
+print("="*30)
 # Ejercicio 3: Determinar si un número es par o impar
 
 numero = float(input("Por favor ingrese un número: "))
@@ -49,6 +63,8 @@ if numero % 2 != 0:
 else:
     print(f"El numero {numero} es Par")
 
+
+print("="*30)
 # Ejercicio 4: Clasificar una nota académica
 
 nota = float(input("Ingrese la nota obtenida (0.0 a 5.0): "))
@@ -69,9 +85,10 @@ elif nota >=0:
     print("Desempeño bajo")
 
 else:
-    print("Nota invalida")"""
+    print("Nota invalida")
 
 
+print("="*30)
 # Ejercicio 5: Determinar el mayor de tres números
 
 n1 = float(input("Ingrese el primer número: "))
